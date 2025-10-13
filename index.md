@@ -8,7 +8,7 @@ title: Accueil
   <a href="#" id="link-en">English</a>
 </nav>
 
-<div id="fr" style="display:block;">
+<div id="fr" style="display:block;" markdown="1">
   
 # 👋 Bienvenue !
 
@@ -27,7 +27,7 @@ Travail en cours — contenu bientôt disponible.
 
 </div>
 
-<div id="en" style="display:none;">
+<div id="en" style="display:none;" markdown="1">
 
 # 👋 Welcome!
 
