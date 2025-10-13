@@ -3,8 +3,6 @@ layout: default
 title: Home
 ---
 
-[🇫🇷 Version française](index.html)
-
 # 👋 Welcome!
 
 Work in progress — content coming soon.
