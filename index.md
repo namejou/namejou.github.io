@@ -1,13 +1,15 @@
 ---
 layout: default
-title: Home
+title: Accueil
 ---
 
-<button id="btn-fr">Français</button>
-<button id="btn-en">English</button>
+<nav>
+  <a href="#" id="link-fr" style="font-weight:bold;">Français</a> |
+  <a href="#" id="link-en">English</a>
+</nav>
 
-<div class="lang lang-fr">
-
+<div id="fr" style="display:block;">
+  
 # 👋 Bienvenue !
 
 Travail en cours — contenu bientôt disponible.
@@ -25,9 +27,9 @@ Travail en cours — contenu bientôt disponible.
 
 </div>
 
-<div class="lang lang-en" style="display:none;">
+<div id="en" style="display:none;">
 
-# 👋 Welcome !
+# 👋 Welcome!
 
 Work in progress — content coming soon.
 
@@ -46,22 +48,25 @@ Work in progress — content coming soon.
 
 <script>
   document.addEventListener("DOMContentLoaded", function() {
-    const btnFr = document.getElementById('btn-fr');
-    const btnEn = document.getElementById('btn-en');
-    const frSections = document.querySelectorAll('.lang-fr');
-    const enSections = document.querySelectorAll('.lang-en');
+    const linkFr = document.getElementById('link-fr');
+    const linkEn = document.getElementById('link-en');
+    const fr = document.getElementById('fr');
+    const en = document.getElementById('en');
 
-    btnFr.addEventListener('click', () => {
-      frSections.forEach(el => el.style.display = 'block');
-      enSections.forEach(el => el.style.display = 'none');
+    linkFr.addEventListener('click', function(e) {
+      e.preventDefault();
+      fr.style.display = 'block';
+      en.style.display = 'none';
+      linkFr.style.fontWeight = 'bold';
+      linkEn.style.fontWeight = 'normal';
     });
 
-    btnEn.addEventListener('click', () => {
-      frSections.forEach(el => el.style.display = 'none');
-      enSections.forEach(el => el.style.display = 'block');
+    linkEn.addEventListener('click', function(e) {
+      e.preventDefault();
+      en.style.display = 'block';
+      fr.style.display = 'none';
+      linkEn.style.fontWeight = 'bold';
+      linkFr.style.fontWeight = 'normal';
     });
-
-    // Par défaut : anglais visible
-    btnEn.click();
   });
 </script>
