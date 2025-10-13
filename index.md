@@ -4,10 +4,10 @@ title: Home
 ---
 
 <button id="btn-fr">Français</button>
-<button id="btn-en" style="margin-left: 10px;">English</button>
+<button id="btn-en">English</button>
 
-<div id="content-fr" style="display:none;">
-  
+<div class="lang lang-fr">
+
 # 👋 Bienvenue !
 
 Travail en cours — contenu bientôt disponible.
@@ -25,7 +25,7 @@ Travail en cours — contenu bientôt disponible.
 
 </div>
 
-<div id="content-en">
+<div class="lang lang-en" style="display:none;">
 
 # 👋 Welcome !
 
@@ -45,22 +45,23 @@ Work in progress — content coming soon.
 </div>
 
 <script>
-  const btnFr = document.getElementById('btn-fr');
-  const btnEn = document.getElementById('btn-en');
-  const contentFr = document.getElementById('content-fr');
-  const contentEn = document.getElementById('content-en');
+  document.addEventListener("DOMContentLoaded", function() {
+    const btnFr = document.getElementById('btn-fr');
+    const btnEn = document.getElementById('btn-en');
+    const frSections = document.querySelectorAll('.lang-fr');
+    const enSections = document.querySelectorAll('.lang-en');
 
-  // Par défaut, on affiche anglais
-  contentEn.style.display = 'block';
-  contentFr.style.display = 'none';
+    btnFr.addEventListener('click', () => {
+      frSections.forEach(el => el.style.display = 'block');
+      enSections.forEach(el => el.style.display = 'none');
+    });
 
-  btnFr.addEventListener('click', () => {
-    contentFr.style.display = 'block';
-    contentEn.style.display = 'none';
-  });
+    btnEn.addEventListener('click', () => {
+      frSections.forEach(el => el.style.display = 'none');
+      enSections.forEach(el => el.style.display = 'block');
+    });
 
-  btnEn.addEventListener('click', () => {
-    contentFr.style.display = 'none';
-    contentEn.style.display = 'block';
+    // Par défaut : anglais visible
+    btnEn.click();
   });
 </script>
