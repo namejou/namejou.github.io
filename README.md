@@ -1,4 +1,4 @@
-<p style="font-size: 24px;">
+<p style="font-size: 32px;">
   Bonjour !
    <img src="assets/img/profile/wave.gif" alt="Hi" width="32" />
 </p>
