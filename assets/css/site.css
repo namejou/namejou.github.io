@@ -49,10 +49,10 @@ body {
 /* Contenu (droite) */
 .profile-bio { color: #444; margin: 8px 0 12px; font-size: 13px; text-align: justify;}
 .section-title { 
-  font-size: 28px; line-height: 1.2; margin: 0 0 8px; 
+  font-size: 28px; line-height: 1.2; 
   border-bottom: 1px solid #e5e7eb; /* gris très léger */
-  padding-bottom: 8px;              /* espace avant la ligne */
-  margin-bottom: 16px;              /* espace après la ligne */
+  padding-bottom: 5px;              /* espace avant la ligne */
+  margin-bottom: 5px;              /* espace après la ligne */
 }
 .right.content h2 { margin-top: 0; }
 
