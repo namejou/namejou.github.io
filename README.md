@@ -1,5 +1,5 @@
 <p>
-  <img src="assets/img/icons/wave_purple.gif" alt="Hi" width="22" />
+  <img src="assets/img/icons/wave" alt="Hi" width="22" />
   Bonjour !
 </p>
 
