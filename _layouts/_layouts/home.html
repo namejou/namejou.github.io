@@ -4,42 +4,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>{{ page.title }} · {{ site.title | default: "Portfolio" }}</title>
-
-    <!-- CSS global (avec anti-cache) -->
     <link rel="stylesheet" href="{{ '/assets/css/site.css' | relative_url }}?v={{ site.time | date: '%s' }}">
-
-    <!-- CSS critique (garantit la mise en page même si le CSS externe est en cache) -->
-    <style>
-      /* 5 parts égales sur la largeur de la page */
-      html, body { height: 100%; }
-      body { margin: 0; }
-      .page-grid { display: grid; grid-template-columns: repeat(5, 1fr); min-height: 100vh; }
-
-      /* Le contenu occupe les 3 parts du milieu (colonnes 2 à 4) */
-      .page-main { grid-column: 2 / span 3; }
-
-      /* Dans ces 3 parts centrales : 1 part profil (gauche) + 2 parts projets (droite) */
-      .two-col { display: grid; grid-template-columns: 1fr 2fr; gap: 32px; align-items: start; }
-
-      /* Profil (gauche) */
-      .profile { position: sticky; top: 24px; text-align: center; }
-      .profile-photo {
-        width: 220px; height: 220px; object-fit: cover; border-radius: 50%;
-        display: block; margin: 0 auto 16px;
-      }
-      .profile-name { font-size: 28px; line-height: 1.2; margin: 0 0 8px; color: #5D3FD3; }
-      .profile-bio { color: #444; margin: 8px 0 12px; font-size: 10px; }
-      .profile-links a { font-weight: 600; font-size: 10px; }
-
-      /* Responsive : une seule colonne sur mobile */
-      @media (max-width: 900px) {
-        .page-grid { display: block; }
-        .page-main { grid-column: auto; }
-        .two-col { grid-template-columns: 1fr; }
-        .profile { position: static; text-align: left; }
-        .profile-photo { width: 160px; height: 160px; margin: 0 0 12px; }
-      }
-    </style>
   </head>
   <body>
     <div class="page-grid">
