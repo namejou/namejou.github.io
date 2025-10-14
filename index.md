@@ -6,7 +6,7 @@ title: Portfolio
 <section class="two-col">
   <aside class="left profile">
     <h1 class="profile-name">Nadia Mejou</h1>
-    <img class="profile-photo" src="{{ '/profile_pic.jpg' | relative_url }}" alt="Mon portrait" />
+    <img class="profile-photo" src="{{ '/assets/img/profile/profile_pic.jpg' | relative_url }}" alt="Mon portrait" />
     <p class="profile-city"> 
       Paris, France
     </p>
