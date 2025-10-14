@@ -65,13 +65,6 @@ body {
   .profile-photo { width: 160px; height: 160px; margin: 0 0 12px; }
 }
 
-/* Titre de la colonne droite, aligné avec le nom à gauche */
-.section-title {
-  font-size: 28px;      /* même taille que .profile-name */
-  line-height: 1.2;
-  margin: 0;            /* pas d'espace au-dessus, pour coller au top */
-}
-
 /* Assure l'alignement des deux colonnes en haut */
 .two-col { align-items: start; }
 
