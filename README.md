@@ -1,9 +1,7 @@
 <p>
-  Bonjour
-  <img src="assets/img/profile/wave.gif" alt="Hi" width="20" />
-  !
+ <img src="assets/img/profile/wave.gif" alt="Hi" width="20" />
+  Bonjour!
 </p>
-
 
 <table>
   <tr>
