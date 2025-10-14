@@ -35,7 +35,6 @@ body {
   display: block;
   margin: 0 auto 16px;
 }
-.profile-name { font-size: 28px; line-height: 1.2; margin: 0 0 8px; color: #663399; }
 .profile-city,
 .profile-phone,
 .profile-mail {
@@ -48,12 +47,7 @@ body {
 .profile-links a { font-weight: 600; font-size: 12px; text-align: center;}
 /* Contenu (droite) */
 .profile-bio { color: #444; margin: 8px 0 12px; font-size: 13px; text-align: justify;}
-.section-title { 
-  font-size: 28px; line-height: 1.2; 
-  border-bottom: 1px solid #e5e7eb; /* gris très léger */
-  padding-bottom: 5px;              /* espace avant la ligne */
-  margin-bottom: 5px;              /* espace après la ligne */
-}
+
 .right.content h2 { margin-top: 0; }
 
 /* Responsive */
@@ -68,6 +62,29 @@ body {
 /* Assure l'alignement des deux colonnes en haut */
 .two-col { align-items: start; }
 
-/* Si tu avais un décalage d'1-2px, tu peux décommenter la ligne suivante : */
-/* .section-title { position: relative; top: 2px; } */
+/* 1) Neutralise les styles par défaut des h1/h2 */
+h1, h2 {
+  font-family: inherit;
+  font-weight: inherit;
+  font-size: inherit;
+  line-height: inherit;
+  margin: 0;
+}
+
+/* 2) Applique exactement le même style aux deux titres */
+.profile-name,
+.section-title {
+  font-size: 28px;
+  line-height: 1.2;
+  font-weight: 700;
+  margin: 0;
+}
+
+/* (option) ligne sous "Portfolio" */
+.section-title {
+  border-bottom: 1px solid #e5e7eb;
+  padding-bottom: 8px;
+  margin-bottom: 16px;
+}
+
 
