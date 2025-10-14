@@ -1,0 +1,22 @@
+{% assign side = project.side | default: 'left' %}
+<article class="project project--{{ side }}">
+  <div class="project__image">
+    {% if project.image %}
+      <img src="{{ project.image }}" alt="{{ project.title | escape }}"/>
+    {% endif %}
+  </div>
+  <div class="project__content">
+    <h2 class="project__title">{{ project.title }}</h2>
+    {% if project.tags %}
+      <ul class="project__tags">
+        {% for tag in project.tags %}<li>{{ tag }}</li>{% endfor %}
+      </ul>
+    {% endif %}
+    {% if project.description %}
+      <p class="project__desc">{{ project.description }}</p>
+    {% endif %}
+    {% if project.url %}
+      <p><a class="btn" href="{{ project.url }}" target="_blank" rel="noopener">Voir le projet</a></p>
+    {% endif %}
+  </div>
+</article>
