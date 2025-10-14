@@ -3,25 +3,35 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>{{ page.title }} · {{ site.title }}</title>
-<link rel="stylesheet" href="{{ '/assets/css/site.css' | relative_url }}?v={{ site.time | date: '%s' }}">
+    <title>{{ page.title }} · {{ site.title | default: "Portfolio" }}</title>
+
+    <!-- CSS global (avec anti-cache) -->
+    <link rel="stylesheet" href="{{ '/assets/css/site.css' | relative_url }}?v={{ site.time | date: '%s' }}">
+
+    <!-- CSS critique pour la mise en page en 2 colonnes et le centrage -->
+    <style>
+      .two-col{
+        display:grid; grid-template-columns:320px 1fr; gap:40px; align-items:start;
+        max-width:1100px; margin:0 auto; padding:24px;
+      }
+      .profile{ position:sticky; top:24px; text-align:center; }
+      .profile-photo{
+        width:220px; height:220px; object-fit:cover; border-radius:50%;
+        display:block; margin:0 auto 16px;
+      }
+      .profile-name{ font-size:32px; line-height:1.2; margin:0 0 8px; }
+      .profile-bio{ color:#444; margin:8px 0 12px; }
+      .profile-links a{ font-weight:600; }
+      @media (max-width:900px){
+        .two-col{ grid-template-columns:1fr; }
+        .profile{ position:static; text-align:left; }
+        .profile-photo{ width:160px; height:160px; margin:0 0 12px; }
+      }
+    </style>
   </head>
   <body>
-    <header class="site-header">
-      <div class="container">
-        <h1 class="site-title"><a href="/">{{ site.title }}</a></h1>
-        <p class="site-tagline">{{ site.description }}</p>
-      </div>
-    </header>
-
-    <main class="container">
+    <main>
       {{ content }}
     </main>
-
-    <footer class="site-footer">
-      <div class="container">
-        <small>© {{ site.time | date: "%Y" }} · Fait avec Jekyll</small>
-      </div>
-    </footer>
   </body>
 </html>
