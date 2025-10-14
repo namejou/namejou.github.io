@@ -35,7 +35,10 @@ body {
 }
 .profile-name { font-size: 25px; line-height: 1.2; margin: 0 0 8px; color: #4B0082; }
 .profile-bio { color: #444; margin: 8px 0 12px; font-size: 13px; text-align: justify;}
-.profile-links a { font-weight: 600; font-size: 12px; }
+.profile-links a { font-weight: 600; font-size: 12px; text-align: center;}
+.profile-city { color: #444; margin: 8px 0 12px; font-size: 10px; text-align: center;}
+.profile-phone { color: #444; margin: 8px 0 12px; font-size: 10px; text-align: center;}
+.profile-mail { color: #444; margin: 8px 0 12px; font-size: 10px; text-align: center;}
 
 /* Contenu (droite) */
 .right.content h2 { margin-top: 0; }
