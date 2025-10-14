@@ -1,9 +1,10 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 170">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 220">
   <style>
-    .l1 { fill: #5D3FD3; font: 700 46px -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif; }
-    .l2, .l3 { fill: #FFFFFF; font: 600 34px -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif; }
+    .l1 { fill: #5D3FD3; font: 700 30px -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif; }
+    .l2 { fill: #5D3FD3; font: 500 22px -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif; }
+    .l3 { fill: #5D3FD3; font: 500 22px -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif; }
   </style>
-  <text class="l1" x="0" y="52">Data &amp; Insights Manager — Higher education</text>
-  <text class="l2" x="0" y="108">M.Sc. in Data Science · B.Sc. in Mathematics</text>
-  <text class="l3" x="0" y="154">Focused on data science for education</text>
+  <text class="l1" x="0" y="40">Data &amp; Insights Manager — Higher education</text>
+  <text class="l2" x="0" y="90">M.Sc. in Data Science · B.Sc. in Mathematics</text>
+  <text class="l3" x="0" y="135">Focused on data science for education</text>
 </svg>
