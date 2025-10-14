@@ -27,7 +27,7 @@ title: Accueil
     </p>
   </aside>
 
-  <div class="right content">
+  <div class="section-title">
     <h2>Portfolio</h2>
     <!-- On ajoutera ici ta 1ʳᵉ project card -->
   </div>
