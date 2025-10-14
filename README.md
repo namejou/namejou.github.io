@@ -1,9 +1,9 @@
-<h2 style="border-bottom:0;">
+<h3>
   Bonjour&nbsp;! <img src="assets/img/profile/wave.gif" alt="Hi" width="36">
-</h2>
+</h3>
 <img src="assets/img/profile/icon_presentation.png" alt="Portrait de Nadia Mejou" width="220" align="left">
 
-<h1 style="border-bottom:0;">Nadia Mejou</h1>
+<h3">Nadia Mejou</h3>
 <em>Data & Insights Manager — Higher education</em>
 
 <p>
