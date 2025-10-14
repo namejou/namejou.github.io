@@ -1,6 +1,6 @@
 ---
 layout: home
-title: Accueil
+title: "Portfolio | Nadia Mejou"
 ---
 
 <section class="two-col">
