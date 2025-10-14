@@ -1,6 +1,6 @@
 - title: "Projet 1 — Jekyll Card"
   description: "Une première carte de projet avec photo à gauche et texte à droite."
-  image: "/assets/img/projet-1.jpg"
+image: "/assets/img/profile_pic.jpg"
   url: "#"
   tags: [jekyll, html, css]
   side: left
