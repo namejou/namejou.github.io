@@ -78,12 +78,12 @@ h1, h2 {
   line-height: 1.2;
   font-weight: 700;
   margin: 0;
+  padding-bottom: 15px;
 }
 
 /* (option) ligne sous "Portfolio" */
 .section-title {
   border-bottom: 1px solid #e5e7eb;
-  padding-bottom: 8px;
   margin-bottom: 16px;
 }
 
