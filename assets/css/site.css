@@ -77,7 +77,7 @@ h1, h2 {
   font-size: 28px;
   line-height: 1.2;
   font-weight: 700;
-  margin: 0;
+  margin-bottom: 5;
 }
 
 /* (option) ligne sous "Portfolio" */
@@ -87,4 +87,6 @@ h1, h2 {
   margin-bottom: 16px;
 }
 
-
+.profile-name {
+  color: #663399;
+}
