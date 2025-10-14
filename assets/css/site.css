@@ -48,7 +48,7 @@ body {
 .profile-links a { font-weight: 600; font-size: 12px; text-align: center;}
 /* Contenu (droite) */
 .profile-bio { color: #444; margin: 8px 0 12px; font-size: 13px; text-align: justify;}
-.profile-title { 
+.section-title { 
   font-size: 28px; line-height: 1.2; margin: 0 0 8px; 
   border-bottom: 1px solid #e5e7eb; /* gris très léger */
   padding-bottom: 8px;              /* espace avant la ligne */
