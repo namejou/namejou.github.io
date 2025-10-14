@@ -3,7 +3,7 @@
 </h3>
 <img src="assets/img/profile/icon_presentation.png" alt="Portrait de Nadia Mejou" width="220" align="left">
 
-<h3">Nadia Mejou</h3>
+<h3>Nadia Mejou</h3>
 <em>Data & Insights Manager — Higher education</em>
 
 <p>
