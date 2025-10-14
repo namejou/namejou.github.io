@@ -1,6 +1,6 @@
 <p style="font-size: 40px;">
   Bonjour !
-   <img src="assets/img/profile/wave.gif" alt="Hi" width="38" />
+   <img src="assets/img/profile/wave.gif" alt="Hi" width="40" />
 </p>
 
 <img src="assets/img/profile/icon_presentation.png" alt="Portrait de Nadia Mejou" width="220" align="left">
