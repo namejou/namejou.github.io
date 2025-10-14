@@ -68,7 +68,7 @@ h1, h2 {
   font-weight: inherit;
   font-size: inherit;
   line-height: inherit;
-  margin: 0;
+  margin-bottom: 10;
 }
 
 /* 2) Applique exactement le même style aux deux titres */
@@ -77,7 +77,7 @@ h1, h2 {
   font-size: 28px;
   line-height: 1.2;
   font-weight: 700;
-  margin-bottom: 5;
+  margin-bottom: 0;
 }
 
 /* (option) ligne sous "Portfolio" */
