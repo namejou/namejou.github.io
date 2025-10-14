@@ -1,7 +1,9 @@
-<h2>Bonjour&nbsp;! <img src="assets/img/profile/wave.gif" alt="Hi" width="36"></h2>
+<h2 style="border-bottom:0;margin:0 0 8px 0;">
+  Bonjour&nbsp;! <img src="assets/img/profile/wave.gif" alt="Hi" width="36">
+</h2>
 <img src="assets/img/profile/icon_presentation.png" alt="Portrait de Nadia Mejou" width="220" align="left">
 
-<h1 style="margin:0;">Nadia Mejou</h1>
+<h1 style="border-bottom:0;"margin:0;">Nadia Mejou</h1>
 <em>Data & Insights Manager — Higher education</em>
 
 <p>
