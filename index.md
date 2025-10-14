@@ -7,6 +7,15 @@ title: Accueil
   <aside class="left profile">
     <h1 class="profile-name">Nadia Mejou</h1>
     <img class="profile-photo" src="{{ '/profile_pic.jpg' | relative_url }}" alt="Mon portrait" />
+    <p class="profile-city"> 
+      Paris, France
+    </p>
+    <p class="profile-phone">
+      (+33)699201222
+    </p>
+    <p class="profile-mail">
+      nadia.mejou@gmail.com
+    </p>
     <p class="profile-links">
       <a href="#" target="_blank" rel="noopener">Resume</a> |
       <a href="#" target="_blank" rel="noopener">LinkedIn</a> |
