@@ -16,17 +16,18 @@ title: Accueil
 
 <section class="two-col">
   <aside class="left profile">
-    <img class="profile-photo" src="{{ '/profile_pic.jpg' | relative_url }}" alt="Mon portrait" />
     <h1 class="profile-name">Ton Nom</h1>
-    <p class="profile-bio">
-      Petite bio en 2–3 phrases. Ce que tu fais, ton domaine, ton style.
-    </p>
-    <p class="profile-links">
+    <img class="profile-photo" src="{{ '/profile_pic.jpg' | relative_url }}" alt="Mon portrait" />
+        <p class="profile-links">
       <a href="#" target="_blank" rel="noopener">Resume</a> |
       <a href="#" target="_blank" rel="noopener">LinkedIn</a> |
       <a href="https://github.com/nm-education" target="_blank" rel="noopener">GitHub</a> |
       <a href="#" target="_blank" rel="noopener">Tableau</a>
     </p>
+    <p class="profile-bio">
+      I am a Data & Insights Manager with deep expertise in academic information systems and a strong focus on the higher education sector. My background blends data engineering, analytics, and applied data science to drive impactful, data-informed strategies for universities and educational institutions.
+    </p>
+
   </aside>
 
   <div class="right content">
