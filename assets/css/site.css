@@ -14,7 +14,9 @@ body {
   grid-template-columns: repeat(5, 1fr);
   min-height: 100vh;
 }
-.page-main { grid-column: 2 / span 3; }  /* 3 parts centrales */
+.page-main { grid-column: 2 / span 3; 
+           padding: 48px 0;
+           }  /* 3 parts centrales */
 
 /* Zone centrale = 2 colonnes : 1 part profil | 2 parts projets */
 .two-col {
