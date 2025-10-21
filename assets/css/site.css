@@ -91,9 +91,11 @@ body {
 
 .project-card .project-summary {
   color: #444;
-  margin: 8px 0 12px;
-  font-size: 11px;
+  font-size: 13px;
+  font-weight: normal;        /* ← corrige le gras */
   text-align: justify;
+  line-height: 1.5;
+  margin: 8px 0 12px;
 }
 
 .project-card .project-summary ul {
