@@ -47,16 +47,14 @@ body {
   margin: 0 0 6px 0;
   font-size: 1.1rem; /* un peu plus petit que 28px (portfolio) */
   font-weight: 700;
-  color: #333;
+  color: #444;
 }
 
 .project-card > p:first-of-type {
   color: #444;
-  font-size: 13px;          /* Même taille que la bio */
+  font-size: 1rem;        
   text-align: justify;
-  margin: 4px 0 8px;        /* Espacements plus petits */
-  line-height: 1.5;
-  font-weight: 600;         /* Gras mais pas trop fort */
+  font-weight: 500;        
 }
 
 }
