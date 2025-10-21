@@ -84,9 +84,11 @@ body {
 
 .project-card .project-skills {
   font-style: italic;
-  font-size: 0.85rem;
-  margin-bottom: 10px;
-  color: #555;
+  font-size: 11px;
+  font-weight: normal;        /* ← corrige le gras */
+  text-align: justify;
+  line-height: 1.5;
+  margin: 8px 0 12px;
 }
 
 .project-card .project-summary {
