@@ -11,13 +11,13 @@
   image: /assets/img/projects/lol_project.png
   links:
     - label: Voir sur GitHub
-      url: https://github.com/namejou/Project_Machine_Learning
+      url: https://github.com/namejou/PredictiveGaming_SDA2025
       badge: https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub
     - label: Dataset Kaggle
       url: https://www.kaggle.com/datasets/gyejr95/league-of-legends-challenger-ranked-games2020/data
       badge: https://img.shields.io/badge/KAGGLE-DATASET-blue
     - label: Slide PDF  
-      url: https://github.com/namejou/Project_Machine_Learning/blob/main/Pr%C3%A9sentation%20ML%20-%20MaeLouis_NadiaMedjdoub_MaximeEneau_KarimAmeur.ipynb.pdf  
+      url: https://github.com/namejou/PredictiveGaming_SDA2025/blob/main/Pr%C3%A9sentation%20ML%20-%20MaeLouis_NadiaMedjdoub_MaximeEneau_KarimAmeur.ipynb.pdf  
       badge: https://img.shields.io/badge/PDF-View%20Slides%20PDF-red?logo=adobe-acrobat-reader
 
   summary: >
