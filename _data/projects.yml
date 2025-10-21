@@ -1,7 +1,15 @@
 - title: Analyse Prédictive de Victoires dans League of Legends
   description: >
     Ce projet de machine learning vise à identifier les facteurs clés de victoire dans les parties classées de League of Legends, à travers une analyse comparative entre les niveaux Master, GrandMaster et Challenger. Un modèle XGBoost optimisé a été entraîné sur plus de 190 000 parties pour atteindre une précision supérieure à 97%.
-  skills:
+  links:
+  - label: Voir sur GitHub
+    url: https://github.com/KarimAmeur/Projet_Machine_Learning
+    badge: https://img.shields.io/badge/View_on-GitHub-181717?style=for-the-badge&logo=github
+  - label: Dataset Kaggle
+    url: https://www.kaggle.com/datasets/gyejr95/league-of-legends-challenger-ranked-games2020/data
+    badge: https://img.shields.io/badge/Kaggle-Dataset-20BEFF?style=for-the-badge&logo=kaggle
+
+skills:
     - Python
     - XGBoost
     - Machine Learning
