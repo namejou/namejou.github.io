@@ -52,9 +52,9 @@ body {
 
 .project-card > p:first-of-type {
   color: #444;
-  font-size: 1rem;        
-  text-align: justify;
-  font-weight: 500;        
+  margin: 8px 0 12px;
+  font-size: 13px;
+  text-align: justify;    
 }
 
 .project-card .project-links {
@@ -91,10 +91,9 @@ body {
 
 .project-card .project-summary {
   color: #444;
+  margin: 8px 0 12px;
   font-size: 13px;
   text-align: justify;
-  margin: 8px 0 12px;
-  line-height: 1.5;
 }
 
 .project-card .project-summary ul {
