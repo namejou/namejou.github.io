@@ -1,6 +1,6 @@
 - title: Analyse Prédictive de Victoires dans League of Legends
   description: >
-    Ce projet de machine learning vise à identifier les facteurs clés de victoire dans les parties classées de League of Legends, à travers une analyse comparative entre les niveaux Master, GrandMaster et Challenger. Un modèle XGBoost optimisé a été entraîné sur plus de 190 000 parties pour atteindre une précision supérieure à 97%.
+    Ce projet de machine learning vise à identifier les facteurs clés de victoire dans les parties classées...
   skills:
     - Python
     - XGBoost
@@ -8,6 +8,25 @@
     - Data Analysis
     - GridSearch
     - ROC AUC
+  summary: |
+    Ce jeu de données contient :
+    - Plus de 190 000 parties classées
+    - Des matchs de trois niveaux : Challenger, GrandMaster, Master
+    - 50 variables par match, incluant les performances des deux équipes
+
+    Méthodologie
+    - Nettoyage des données et suppression des variables corrélées
+    - Séparation des données par niveau de jeu
+    - Entraînement d’un modèle XGBoost optimisé via GridSearch
+    - Évaluation multi-métrique : précision, rappel, F1‑score, ROC AUC
+    - Analyse des variables importantes par niveau
+
+    Résultats
+    - Précision du modèle >97% pour chaque niveau
+    - Les objectifs structurels (tours) sont les meilleurs prédicteurs de victoire
+    - Équilibre confirmé entre les équipes rouge et bleue
+    - Des différences stratégiques marquées selon le niveau des joueurs
+
   image: /assets/img/lol_project.png
   links:
     - label: Voir sur GitHub
@@ -16,7 +35,6 @@
     - label: Dataset Kaggle
       url: https://www.kaggle.com/datasets/gyejr95/league-of-legends-challenger-ranked-games2020/data
       badge: https://img.shields.io/badge/Kaggle-Dataset-20BEFF?style=for-the-badge&logo=kaggle
-      - label: Slide PDF
+    - label: Slide PDF
       url: /assets/docs/mon_slide.pdf
       badge: https://img.shields.io/badge/Slide-PDF-D14836?style=for-the-badge&logo=adobeacrobatreader
-
