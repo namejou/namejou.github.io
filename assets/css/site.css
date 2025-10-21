@@ -52,11 +52,13 @@ body {
 
 .project-card > p:first-of-type {
   color: #444;
-  font-size: 15px;
+  font-size: 13px;          /* Même taille que la bio */
   text-align: justify;
-  margin: 8px 0 12px;
+  margin: 4px 0 8px;        /* Espacements plus petits */
   line-height: 1.5;
-  font-weight: 700;
+  font-weight: 600;         /* Gras mais pas trop fort */
+}
+
 }
 
 .project-card .project-links a {
@@ -66,10 +68,6 @@ body {
   text-decoration: none;
   color: #333;
   padding: 4px 10px;
-}
-
-.project-card .project-links a:hover {
-  background-color: #e0e0e0;
 }
 
 .project-card .project-links img {
