@@ -19,11 +19,11 @@
   <div class="section-title">
     <h2>Portfolio</h2>
     <div class="projects-list">
-      {% assign projets = site.data.projects %}
-      {% for projet in projets %}
+      {% assign projects = site.data.projects %}
+      {% for project in projects %}
         <article class="project-card">
-          <h3>{{ projet.title }}</h3>
-          <p class="project-description">{{ projet.description }}</p>
+          <h3>{{ project.title }}</h3>
+          <p class="project-description">{{ project.description }}</p>
           <div class="project-links">
             {% for link in project.links %}
               <a href="{{ link.url }}" target="_blank" rel="noopener">
