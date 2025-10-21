@@ -23,23 +23,22 @@
       {% for projet in projets %}
         <article class="project-card">
           <h3>{{ projet.title }}</h3>
-          <img src="{{ projet.image | relative_url }}" alt="{{ projet.title }}">
-          <p>{{ projet.description }}</p>
-          <ul class="skills-list">
-            {% for skill in projet.skills %}
-              <li>{{ skill }}</li>
-            {% endfor %}
-          </ul>
+          <p class="project-description"><strong>{{ projet.description }}</strong></p>
           <div class="project-links">
             {% for link in projet.links %}
               <a href="{{ link.url }}" target="_blank" rel="noopener">
-                {% if link.badge %}
-                  <img src="{{ link.badge }}" alt="{{ link.label }}" class="badge" />
-                {% else %}
-                  {{ link.label }}
-                {% endif %}
+                <img src="{{ link.badge }}" alt="{{ link.label }}">
               </a>
             {% endfor %}
+          </div>
+          <p class="skills-text">
+            <em>Key Skills: {{ projet.skills | join: ', ' }}</em>
+          </p>
+          <div class="project-summary">
+            {{ projet.summary | markdownify }}
+          </div>
+          <div class="project-image-wrapper">
+            <img src="{{ projet.image | relative_url }}" alt="{{ projet.title }}" class="project-image">
           </div>
         </article>
       {% endfor %}
