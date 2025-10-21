@@ -76,6 +76,12 @@ body {
   margin-right: 4px;
 }
 
+.project-links {
+  display: flex;
+  gap: 10px;       /* espace entre les badges */
+  flex-wrap: nowrap; /* empêche le retour à la ligne */
+  align-items: center;
+}
 
 .project-card .skills-text {
   font-style: italic;
@@ -83,6 +89,15 @@ body {
   margin-bottom: 10px;
   color: #555;
 }
+
+.project-links a {
+  display: inline-flex;
+  align-items: center;
+  border-radius: 6px;
+  padding: 3px 8px;
+  white-space: nowrap; /* empêche le texte de revenir à la ligne */
+}
+
 
 .project-card .project-summary {
   color: #444;
