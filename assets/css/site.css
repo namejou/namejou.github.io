@@ -57,29 +57,30 @@ body {
   font-weight: 500;        
 }
 
+.project-card .project-links {
+  display: flex;
+  align-items: center;
+  gap: 6px;           /* espace léger entre les badges */
+  flex-wrap: nowrap;  /* force les badges à rester sur une ligne */
+  margin-bottom: 10px;
 }
 
 .project-card .project-links a {
-  display: inline-block;
-  margin: 4px 6px 6px 0;
-  font-size: 0.75rem;
+  display: inline-flex;
+  align-items: center;
+  padding: 0;         /* pas de padding autour */
+  margin: 0;          /* supprime marges inutiles */
   text-decoration: none;
-  color: #333;
-  padding: 4px 10px;
+  white-space: nowrap;
 }
 
 .project-card .project-links img {
   height: 18px;
+  display: block;
+  margin: 0;
   vertical-align: middle;
-  margin-right: 4px;
 }
 
-.project-links {
-  display: flex;
-  gap: 10px;       /* espace entre les badges */
-  flex-wrap: nowrap; /* empêche le retour à la ligne */
-  align-items: center;
-}
 
 .project-card .skills-text {
   font-style: italic;
@@ -87,15 +88,6 @@ body {
   margin-bottom: 10px;
   color: #555;
 }
-
-.project-links a {
-  display: inline-flex;
-  align-items: center;
-  border-radius: 6px;
-  padding: 3px 8px;
-  white-space: nowrap; /* empêche le texte de revenir à la ligne */
-}
-
 
 .project-card .project-summary {
   color: #444;
