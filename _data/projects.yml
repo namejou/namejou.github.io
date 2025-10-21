@@ -1,6 +1,6 @@
 - title: Analyse Prédictive de Victoires dans League of Legends
   description: >
-    Ce projet de machine learning vise à identifier les facteurs clés de victoire dans les parties classées de League of Legends, à travers une analyse comparative entre les niveaux Master, GrandMaster et Challenger. Un modèle XGBoost optimisé a été entraîné sur plus de 190 000 parties pour atteindre une précision supérieure à 97%.
+    Ce projet de machine learning vise à identifier les facteurs clés de victoire dans les parties classées de League of Legends, à travers une analyse comparative entre les niveaux Master, GrandMaster et Challenger. 
   skills:
     - Python
     - XGBoost
@@ -8,7 +8,7 @@
     - Data Analysis
     - GridSearch
     - ROC AUC
-  image: /assets/img/lol_project.png
+  image: /assets/img/projects/lol_project.png
   links:
     - label: Voir sur GitHub
       url: https://github.com/KarimAmeur/Projet_Machine_Learning
@@ -20,20 +20,6 @@
       url: /assets/docs/mon_slide.pdf
       badge: https://img.shields.io/badge/PDF-View%20Slides%20PDF-red?logo=adobe-acrobat-reader
   summary: >
-    Ce jeu de données contient :
-    - Plus de 190 000 parties classées
-    - Des matchs de trois niveaux : Challenger, GrandMaster, Master
-    - 50 variables par match, incluant les performances des deux équipes
+    Ce jeu de données contient plus de 190 000 parties classées es matchs de trois niveaux : Challenger, GrandMaster, Master 0 variables par match, incluant les performances des deux équipes MéthodologieNettoyage des données et suppression des variables corréléeSéparation des données par niveau de jeuEntraînement d’un modèle XGBoost optimisé via GridSearchÉvaluation multi-métrique : précision, rappel, F1‑score, ROC AUCAnalyse des variables importantes par niveau
 
-    Méthodologie
-    - Nettoyage des données et suppression des variables corrélées
-    - Séparation des données par niveau de jeu
-    - Entraînement d’un modèle XGBoost optimisé via GridSearch
-    - Évaluation multi-métrique : précision, rappel, F1‑score, ROC AUC
-    - Analyse des variables importantes par niveau
 
-    Résultats
-    - Précision du modèle >97% pour chaque niveau
-    - Les objectifs structurels (tours) sont les meilleurs prédicteurs de victoire
-    - Équilibre confirmé entre les équipes rouge et bleue
-    - Des différences stratégiques marquées selon le niveau des joueurs
