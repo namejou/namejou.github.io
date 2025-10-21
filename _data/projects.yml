@@ -20,6 +20,11 @@
       url: /assets/docs/mon_slide.pdf
       badge: https://img.shields.io/badge/PDF-View%20Slides%20PDF-red?logo=adobe-acrobat-reader
   summary: >
-    Ce jeu de données contient plus de 190 000 parties classées es matchs de trois niveaux : Challenger, GrandMaster, Master 0 variables par match, incluant les performances des deux équipes MéthodologieNettoyage des données et suppression des variables corréléeSéparation des données par niveau de jeuEntraînement d’un modèle XGBoost optimisé via GridSearchÉvaluation multi-métrique : précision, rappel, F1‑score, ROC AUCAnalyse des variables importantes par niveau
-
+  Ce jeu de données contient plus de 190 000 parties classées, des matchs de trois niveaux : Challenger, GrandMaster, Master,
+  et 50 variables par match incluant les performances des deux équipes.
+  
+  La méthodologie repose sur le nettoyage des données, la suppression des variables corrélées,
+  la séparation des données par niveau de jeu, et l'entraînement d’un modèle XGBoost optimisé via GridSearch.
+  
+  Le modèle atteint une précision supérieure à 97 % pour chaque niveau.
 
