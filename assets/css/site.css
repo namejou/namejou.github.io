@@ -14,9 +14,10 @@ body {
   grid-template-columns: repeat(5, 1fr);
   min-height: 100vh;
 }
-.page-main { grid-column: 2 / span 3; 
-           padding: 48px 0;
-           }  /* 3 parts centrales */
+.page-main {
+  grid-column: 2 / span 3;
+  padding: 48px 0;
+}  /* 3 parts centrales */
 
 /* Zone centrale = 2 colonnes : 1 part profil | 2 parts projets */
 .two-col {
@@ -32,61 +33,93 @@ body {
   padding: 0 20px;        /* un peu de marge à gauche/droite */
 }
 
+/* --- Project Card --- */
 .project-card {
-  border-bottom: 1px solid #ddd; /* séparation discrète */
-  padding: 15px 0;
-}
-
-.project-card:last-child {
-  border-bottom: none;
+  border-bottom: 1px solid #ddd;
+  padding: 20px 0;
+  max-width: 600px;
+  margin: 0 auto 2rem; /* centrage et marge en bas */
+  font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+  color: #333;
 }
 
 .project-card h3 {
   margin: 0 0 8px 0;
-  font-size: 1.2em;
+  font-size: 1.4rem; /* un peu plus petit que 28px (portfolio) */
+  font-weight: 700;
   color: #222;
 }
 
-.project-card p {
-  margin: 0 0 10px 0;
-  color: #555;
-  font-size: 0.95em;
-  line-height: 1.4;
+.project-card > p:first-of-type {
+  font-weight: 700;
+  font-size: 1.1rem;
+  color: #444;
+  margin-top: 0;
+  margin-bottom: 12px;
 }
 
-.skills-list {
-  list-style: none;
-  padding: 0;
-  margin: 0 0 10px 0;
-  display: flex;
-  flex-wrap: wrap;
-  gap: 6px;
+.project-card .project-links {
+  margin-bottom: 10px;
 }
 
-.skills-list li {
-  background: #eee;
-  padding: 3px 8px;
-  border-radius: 4px;
-  font-size: 0.85em;
-  color: #666;
-}
-
-.project-links a {
+.project-card .project-links a {
+  display: inline-block;
   margin-right: 10px;
-  color: #007acc;
-  font-weight: 500;
+  font-size: 0.85rem;
   text-decoration: none;
-  font-size: 0.9em;
+  color: #007acc;
 }
 
-.project-links a:hover {
+.project-card .project-links a:hover {
   text-decoration: underline;
 }
 
+.project-card .project-links img {
+  height: 22px; /* badges petits */
+  vertical-align: middle;
+}
+
+.project-card .skills-text {
+  font-style: italic;
+  font-size: 0.9rem;
+  margin-bottom: 12px;
+  color: #555;
+}
+
+.project-card .project-summary {
+  font-size: 1rem;
+  color: #444;
+  text-align: justify;
+  line-height: 1.5;
+  margin-bottom: 16px;
+}
+
+.project-card .project-summary ul {
+  padding-left: 1.2rem;
+  margin-top: 0.5rem;
+}
+
+.project-card .project-image-wrapper {
+  text-align: center;
+}
+
+.project-card .project-image {
+  max-width: 100%;
+  height: auto;
+  border-radius: 6px;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.1);
+  margin-top: 1rem;
+}
+
 /* Profil (gauche) */
-.profile { position: sticky; top: 24px; text-align: center; }
+.profile {
+  position: sticky;
+  top: 24px;
+  text-align: center;
+}
 .profile-photo {
-  width: 220px; height: 220px;
+  width: 220px;
+  height: 220px;
   object-fit: cover;
   border-radius: 50%;
   display: block;
@@ -101,23 +134,50 @@ body {
   text-align: center;
   line-height: 1.3;     /* (optionnel) rend le texte un peu plus serré */
 }
-.profile-links a { font-weight: 600; font-size: 12px; text-align: center;}
-/* Contenu (droite) */
-.profile-bio { color: #444; margin: 8px 0 12px; font-size: 13px; text-align: justify;}
+.profile-links a {
+  font-weight: 600;
+  font-size: 12px;
+  text-align: center;
+}
 
-.right.content h2 { margin-top: 0; }
+/* Contenu (droite) */
+.profile-bio {
+  color: #444;
+  margin: 8px 0 12px;
+  font-size: 13px;
+  text-align: justify;
+}
+
+.right.content h2 {
+  margin-top: 0;
+}
 
 /* Responsive */
 @media (max-width: 900px) {
-  .page-grid { display: block; }
-  .page-main { grid-column: auto; }
-  .two-col { grid-template-columns: 1fr; }
-  .profile { position: static; text-align: left; }
-  .profile-photo { width: 160px; height: 160px; margin: 0 0 12px; }
+  .page-grid {
+    display: block;
+  }
+  .page-main {
+    grid-column: auto;
+  }
+  .two-col {
+    grid-template-columns: 1fr;
+  }
+  .profile {
+    position: static;
+    text-align: left;
+  }
+  .profile-photo {
+    width: 160px;
+    height: 160px;
+    margin: 0 0 12px;
+  }
 }
 
 /* Assure l'alignement des deux colonnes en haut */
-.two-col { align-items: start; }
+.two-col {
+  align-items: start;
+}
 
 /* 1) Neutralise les styles par défaut des h1/h2 */
 h1, h2 {
