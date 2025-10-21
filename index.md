@@ -31,7 +31,7 @@
               </a>
             {% endfor %}
           </div>
-          <p class="skills-text">
+          <p class="skills">
             <em>Key Skills: {{ projet.skills | join: ', ' }}</em>
           </p>
           <div class="project-summary">
