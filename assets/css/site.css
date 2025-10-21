@@ -46,12 +46,12 @@ body {
 .project-card h3 {
   margin: 0 0 6px 0;
   font-size: 1.1rem; /* un peu plus petit que 28px (portfolio) */
-  font-weight: 600;
+  font-weight: 700;
   color: #333;
 }
 
 .project-card > p:first-of-type {
-  font-weight: 600;
+  font-weight: 400;
   font-size: 0.95rem;
   color: #444;
   margin-top: 0;
@@ -59,26 +59,29 @@ body {
   line-height: 1.4;
 }
 
-.project-card .project-links {
-  margin-bottom: 10px;
-}
-
 .project-card .project-links a {
   display: inline-block;
-  margin-right: 10px;
+  margin: 4px 6px 6px 0;
   font-size: 0.75rem;
   text-decoration: none;
-  color: #007acc;
+  color: #333;
+  background-color: #f5f5f5;
+  border: 1px solid #ddd;
+  padding: 4px 10px;
+  border-radius: 6px;
+  transition: background-color 0.2s ease;
 }
 
 .project-card .project-links a:hover {
-  text-decoration: underline;
+  background-color: #e0e0e0;
 }
 
 .project-card .project-links img {
-  height: 18px; /* badges petits */
+  height: 18px;
   vertical-align: middle;
+  margin-right: 4px;
 }
+
 
 .project-card .skills-text {
   font-style: italic;
