@@ -91,11 +91,11 @@ body {
 }
 
 .project-card .project-summary {
-  font-size: 0.9rem;
   color: #444;
+  font-size: 13px;
   text-align: justify;
+  margin: 8px 0 12px;
   line-height: 1.5;
-  margin-bottom: 14px;
 }
 
 .project-card .project-summary ul {
