@@ -29,6 +29,35 @@ title: Portfolio
 
   <div class="section-title">
     <h2>Portfolio</h2>
-    <!-- On ajoutera ici ta 1ʳᵉ project card -->
+    <div class="section-title">
+  <h2>Portfolio</h2>
+  <div class="projects-list">
+    {% assign projets = site.data.projects %}
+    {% for projet in projets %}
+      <article class="project-card">
+        <h3>{{ projet.title }}</h3>
+        <img src="{{ projet.image | relative_url }}" alt="{{ projet.title }}">
+        <p>{{ projet.description }}</p>
+        <ul class="skills-list">
+          {% for skill in projet.skills %}
+            <li>{{ skill }}</li>
+          {% endfor %}
+        </ul>
+        <div class="project-links">
+          {% for link in projet.links %}
+            <a href="{{ link.url }}" target="_blank" rel="noopener">
+              {% if link.badge %}
+                <img src="{{ link.badge }}" alt="{{ link.label }}" class="badge" />
+              {% else %}
+                {{ link.label }}
+              {% endif %}
+            </a>
+          {% endfor %}
+        </div>
+      </article>
+    {% endfor %}
+  </div>
+</div>
+
   </div>
 </section>
