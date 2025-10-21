@@ -12,13 +12,13 @@
   links:
     - label: Voir sur GitHub
       url: https://github.com/KarimAmeur/Projet_Machine_Learning
-      badge: https://img.shields.io/badge/View_on-GitHub-181717?style=for-the-badge&logo=github
+      badge: https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub
     - label: Dataset Kaggle
       url: https://www.kaggle.com/datasets/gyejr95/league-of-legends-challenger-ranked-games2020/data
       badge: https://img.shields.io/badge/Kaggle-Dataset-20BEFF?style=for-the-badge&logo=kaggle
     - label: Slide PDF
       url: /assets/docs/mon_slide.pdf
-      badge: https://img.shields.io/badge/Slide-PDF-D14836?style=for-the-badge&logo=adobeacrobatreader
+      badge: https://img.shields.io/badge/PDF-View%20Slides%20PDF-red?logo=adobe-acrobat-reader
   summary: >
     Ce jeu de données contient :
     - Plus de 190 000 parties classées
