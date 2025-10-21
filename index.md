@@ -23,7 +23,7 @@
       {% for projet in projets %}
         <article class="project-card">
           <h3>{{ projet.title }}</h3>
-          <p class="project-description"><strong>{{ projet.description }}</strong></p>
+          <p class="project-description">{{ projet.description }}</p>
           <div class="project-links">
             {% for link in projet.links %}
               <a href="{{ link.url }}" target="_blank" rel="noopener">
