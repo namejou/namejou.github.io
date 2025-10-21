@@ -25,20 +25,20 @@
           <h3>{{ projet.title }}</h3>
           <p class="project-description">{{ projet.description }}</p>
           <div class="project-links">
-            {% for link in projet.links %}
+            {% for link in project.links %}
               <a href="{{ link.url }}" target="_blank" rel="noopener">
                 <img src="{{ link.badge }}" alt="{{ link.label }}">
               </a>
             {% endfor %}
           </div>
           <p class="skills">
-            <em>Key Skills: {{ projet.skills | join: ', ' }}</em>
+            <em>Key Skills: {{ project.skills | join: ', ' }}</em>
           </p>
           <div class="project-summary">
-            {{ projet.summary | markdownify }}
+            {{ project.summary | markdownify }}
           </div>
           <div class="project-image-wrapper">
-            <img src="{{ projet.image | relative_url }}" alt="{{ projet.title }}" class="project-image">
+            <img src="{{ project.image | relative_url }}" alt="{{ project.title }}" class="project-image">
           </div>
         </article>
       {% endfor %}
