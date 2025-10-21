@@ -50,7 +50,7 @@ body {
   color: #444;
 }
 
-.project-card > p:first-of-type {
+.project-card .project-description {
   color: #444;
   margin: 8px 0 12px;
   font-size: 13px;
