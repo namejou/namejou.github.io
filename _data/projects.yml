@@ -15,7 +15,7 @@
       badge: https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub
     - label: Dataset Kaggle
       url: https://www.kaggle.com/datasets/gyejr95/league-of-legends-challenger-ranked-games2020/data
-      badge: https://img.shields.io/badge/Kaggle-Dataset-20BEFF?style=for-the-badge&logo=kaggle
+      badge: https://img.shields.io/badge/KAGGLE-DATASET-blue
     - label: Slide PDF
       url: /assets/docs/mon_slide.pdf
       badge: https://img.shields.io/badge/PDF-View%20Slides%20PDF-red?logo=adobe-acrobat-reader
