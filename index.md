@@ -6,10 +6,10 @@
     <p class="profile-phone">(+33)699201222</p>
     <p class="profile-mail">nadia.mejou@gmail.com</p>
     <p class="profile-links">
-      <a href="#" target="_blank" rel="noopener">Resume</a> |
-      <a href="#" target="_blank" rel="noopener">LinkedIn</a> |
-      <a href="https://github.com/nm-education" target="_blank" rel="noopener">GitHub</a> |
-      <a href="#" target="_blank" rel="noopener">Tableau</a>
+<a href="#" target="_blank" rel="noopener">Resume</a> |
+<a href="https://www.linkedin.com/in/nadia-medjdoub/" target="_blank" rel="noopener">LinkedIn</a> |
+<a href="https://github.com/namejou/" target="_blank" rel="noopener">GitHub</a> |
+<a href="#" target="_blank" rel="noopener">Tableau</a>
     </p>
     <p class="profile-bio">
       I am a Data & Insights Manager with deep expertise in academic information systems and a strong focus on the higher education sector. My background blends data engineering, analytics, and applied data science to drive impactful, data-informed strategies for universities and educational institutions.
