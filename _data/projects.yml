@@ -1,6 +1,6 @@
-- title: Analyse Prédictive de Victoires dans League of Legends
+- title: Predictive Modeling in Competitive Gaming (League of Legends)
   description: >
-    Ce projet de machine learning vise à identifier les facteurs clés de victoire dans les parties classées de League of Legends, à travers une analyse comparative entre les niveaux Master, GrandMaster et Challenger. 
+    Focus: Machine Learning – Predictive Analytics with XGBoost
   skills:
     - Python
     - XGBoost
@@ -20,11 +20,9 @@
        url: https://github.com/namejou/Project_Machine_Learning/blob/main/Présentation%20ML%20-%20MaeLouis_NadiaMedjdoub_MaximeEneau_KarimAmeur.ipynb.pdf
       badge: https://img.shields.io/badge/PDF-View%20Slides%20PDF-red?logo=adobe-acrobat-reader
   summary: >
-    Ce jeu de données contient plus de 190 000 parties classées, des matchs de trois niveaux : Challenger, GrandMaster, Master,
-    et 50 variables par match incluant les performances des deux équipes.
-  
-    La méthodologie repose sur le nettoyage des données, la suppression des variables corrélées,
-    la séparation des données par niveau de jeu, et l'entraînement d’un modèle XGBoost optimisé via GridSearch.
-  
-    Le modèle atteint une précision supérieure à 97 % pour chaque niveau.
+   As part of our Master's program in Data Analytics at Sorbonne University, our team carried out a predictive modeling project focused on ranked matches in League of Legends. Using a dataset of over 190,000 matches from the highest competitive tiers (Master, GrandMaster, Challenger), we built machine learning models to identify which gameplay factors most strongly influence match outcomes.
+
+   We applied XGBoost, optimized via GridSearch, to train separate models for each skill tier. After extensive data cleaning and feature selection, our models achieved over 97% accuracy. The analysis revealed that structural objectives (like towers and inhibitors) are the most reliable predictors of victory. We also found meaningful strategic differences between tiers and confirmed overall game balance between the red and blue teams.
+
+   This project demonstrates our ability to design end-to-end predictive pipelines, conduct strategic data analysis, and draw actionable insights from large-scale competitive gaming data.
 
