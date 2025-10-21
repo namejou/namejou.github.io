@@ -16,9 +16,10 @@
     - label: Dataset Kaggle
       url: https://www.kaggle.com/datasets/gyejr95/league-of-legends-challenger-ranked-games2020/data
       badge: https://img.shields.io/badge/KAGGLE-DATASET-blue
-    - label: Slide PDF
-       url: https://github.com/namejou/Project_Machine_Learning/blob/main/Présentation%20ML%20-%20MaeLouis_NadiaMedjdoub_MaximeEneau_KarimAmeur.ipynb.pdf
+    - label: Slide PDF  
+      url: https://github.com/namejou/Project_Machine_Learning/blob/main/Pr%C3%A9sentation%20ML%20-%20MaeLouis_NadiaMedjdoub_MaximeEneau_KarimAmeur.ipynb.pdf  
       badge: https://img.shields.io/badge/PDF-View%20Slides%20PDF-red?logo=adobe-acrobat-reader
+
   summary: >
    As part of our Master's program in Data Analytics at Sorbonne University, our team carried out a predictive modeling project focused on ranked matches in League of Legends. Using a dataset of over 190,000 matches from the highest competitive tiers (Master, GrandMaster, Challenger), we built machine learning models to identify which gameplay factors most strongly influence match outcomes.
 
