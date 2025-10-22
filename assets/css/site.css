@@ -215,4 +215,5 @@ h1, h2 {
 
 .profile-name {
   color: #663399;
+  white-space: nowrap;  
 }
