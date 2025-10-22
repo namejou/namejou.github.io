@@ -27,3 +27,39 @@
 
    This project demonstrates our ability to design end-to-end predictive pipelines, conduct strategic data analysis, and draw actionable insights from large-scale competitive gaming data.
 
+- title: Traffic Sign Recognition with Deep Learning
+  description: >
+    Deep learning project for autonomous driving systems. Built a CNN-based model trained on the GTSRB dataset, achieving 99.87% accuracy using the Swish activation function.
+  skills:
+    – Python  
+    – TensorFlow / Keras  
+    – OpenCV  
+    – NumPy, Pandas  
+    – Matplotlib, Seaborn  
+    – Scikit-learn 
+  image: /assets/img/projects/dl_signalisation2.png
+  links:
+    - label: Voir sur GitHub
+      url: https://github.com/namejou/TrafficSign_Detection_SDA2025
+      badge: https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub
+    - label: Dataset Kaggle
+      url: https://www.kaggle.com/datasets/meowmeowmeowmeowmeow/gtsrb-german-traffic-sign
+      badge: https://img.shields.io/badge/KAGGLE-DATASET-blue
+    - label: Slide PDF  
+      url: https://github.com/namejou/TrafficSign_Detection_SDA2025/blob/main/Presentation%20Projet%20DL%20-%20Nadia%20-%20Karim.pdf  
+      badge: https://img.shields.io/badge/PDF-View%20Slides%20PDF-red?logo=adobe-acrobat-reader
+    - label: Report pdf  
+      url: https://github.com/namejou/TrafficSign_Detection_SDA2025/blob/main/Rapport%20Projet%20DL%20-%20Nadia%20-%20Karim.pdf
+      badge: https://img.shields.io/badge/Report-PDF-red
+  summary: >
+   In this project, we explored the use of Convolutional Neural Networks (CNNs) to classify traffic signs for autonomous driving systems. Using the German Traffic Sign Recognition Benchmark (GTSRB) dataset, which contains more than 50,000 labeled images across 43 categories, our goal was to build a model capable of understanding real-world traffic scenarios with near-human precision.
+
+   We started with a baseline CNN architecture using ReLU activation and progressively improved its performance through Batch Normalization, Dropout, and Global Average Pooling. Finally, by introducing the Swish activation function, the model achieved an outstanding 99.87% accuracy on the test set.
+
+   Beyond simple classification, we designed a two-stage system:
+   - A binary CNN to detect whether an image contains a traffic sign or not.
+   - A multi-class CNN to identify the specific sign category.
+
+   This hybrid approach enhances robustness in diverse environments and reduces false detections — a crucial step toward safer autonomous driving.
+
+   Our work demonstrates how careful optimization of neural network architectures, combined with data augmentation and activation function tuning, can yield highly reliable models for computer vision applications in intelligent transportation systems.
