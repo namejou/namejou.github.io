@@ -15,7 +15,7 @@
       badge: https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub
     - label: Dataset Kaggle
       url: https://www.kaggle.com/datasets/meowmeowmeowmeowmeow/gtsrb-german-traffic-sign
-      badge: https://img.shields.io/badge/KAGGLE-DATASET-blue
+      badge: https://img.shields.io/badge/Kaggle-DATASET-blue?logo=KAGGLE
     - label: Slide PDF
       url: https://github.com/namejou/TrafficSign_Detection_SDA2025/blob/main/Presentation%20Projet%20DL%20-%20Nadia%20-%20Karim.pdf
       badge: https://img.shields.io/badge/PDF-View%20Slides%20PDF-red?logo=adobe-acrobat-reader
@@ -52,7 +52,7 @@
       badge: https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub
     - label: Dataset Kaggle
       url: https://www.kaggle.com/datasets/gyejr95/league-of-legends-challenger-ranked-games2020/data
-      badge: https://img.shields.io/badge/KAGGLE-DATASET-blue
+      badge: https://img.shields.io/badge/Kaggle-DATASET-blue?logo=KAGGLE
     - label: Slide PDF
       url: https://github.com/namejou/PredictiveGaming_SDA2025/blob/main/Pr%C3%A9sentation%20ML%20-%20MaeLouis_NadiaMedjdoub_MaximeEneau_KarimAmeur.ipynb.pdf
       badge: https://img.shields.io/badge/PDF-View%20Slides%20PDF-red?logo=adobe-acrobat-reader
