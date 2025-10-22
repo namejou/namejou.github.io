@@ -23,7 +23,7 @@
       url: https://github.com/namejou/TrafficSign_Detection_SDA2025/blob/main/Rapport%20Projet%20DL%20-%20Nadia%20-%20Karim.pdf
       badge: https://img.shields.io/badge/PDF-Full_Report-red
   summary: >
-    In this project, we explored the use of Convolutional Neural Networks (CNNs) to classify traffic signs for autonomous driving systems. Using the German Traffic Sign Recognition Benchmark (GTSRB) dataset, which contains more than 50,000 labeled images across 43 categories, our goal was to build a model capable of understanding real-world traffic scenarios with near-human precision.
+    In this academic project, we explored the use of Convolutional Neural Networks (CNNs) to classify traffic signs for autonomous driving systems. Using the German Traffic Sign Recognition Benchmark (GTSRB) dataset, which contains more than 50,000 labeled images across 43 categories, our goal was to build a model capable of understanding real-world traffic scenarios with near-human precision.
 
     We started with a baseline CNN architecture using ReLU activation and progressively improved its performance through Batch Normalization, Dropout, and Global Average Pooling. Finally, by introducing the Swish activation function, the model achieved an outstanding 99.87% accuracy on the test set.
 
