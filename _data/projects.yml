@@ -63,5 +63,3 @@
    We applied XGBoost, optimized via GridSearch, to train separate models for each skill tier. After extensive data cleaning and feature selection, our models achieved over 97% accuracy. The analysis revealed that structural objectives (like towers and inhibitors) are the most reliable predictors of victory. We also found meaningful strategic differences between tiers and confirmed overall game balance between the red and blue teams.
 
    This project demonstrates our ability to design end-to-end predictive pipelines, conduct strategic data analysis, and draw actionable insights from large-scale competitive gaming data.
-
-
