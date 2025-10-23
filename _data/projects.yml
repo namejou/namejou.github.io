@@ -1,3 +1,39 @@
+- title: Student Admission Dashboard — Parcoursup 
+  description: >
+    Power BI dashboard analyzing student admission dynamics based on Parcoursup open data. Built a complete data model and over 40 DAX measures to monitor key indicators such as seat-filling rates, access ratios, and program attractiveness throughout the admission campaign.
+  skills:
+    - Power BI
+    - DAX (Data Analysis Expressions)
+    - Power Query / Data Modeling
+    - Excel
+    - GitHub / Markdown
+    - Data Visualization & Storytelling
+  image: /assets/img/projects/dashboard-visualisation1.png
+  links:
+    - label: View on GitHub
+      url: https://github.com/namejou/students-admissions-kpi-dashboard
+      badge: https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub
+    - label: DAX Measures
+      url: https://github.com/namejou/students-admissions-kpi-dashboard/blob/main/DAX_measures.md
+      badge: https://img.shields.io/badge/DAX-Full_Measures-blue?logo=Power-BI
+    - label: Presentation PDF
+      url: https://github.com/namejou/students-admissions-kpi-dashboard/blob/main/Presentation_Student_Admissions_PBI.pdf
+      badge: https://img.shields.io/badge/PDF-View_Presentation-red?logo=adobe-acrobat-reader
+  summary: >
+    This project consists of an interactive Power BI dashboard designed to analyze **student admission dynamics** using **public Parcoursup 2024 open data** (with mock data added for confidentiality).
+
+    The dashboard was built for **program directors**, **academic decision-makers**, and **university leaders** to help:
+      - Optimize recruitment and seat allocation during the admission campaign.
+      - Track program attractiveness and admission rates.
+      - Support data-driven planning for future admission cycles.
+
+    The data model follows a **star-schema design**, connecting multiple relational tables (admissions, applications, offers, programs, and institutions) through unique identifiers.  
+    Over **40 custom DAX measures** were developed to calculate official Parcoursup indicators — pressure rate, access rate, attractiveness, seat-filling ratio, last admitted rank, and complementary phase results — all **filterable by academic unit (faculty/UFR, IUT, or school)** and program.
+
+    Each KPI includes an **information tooltip** explaining its definition and calculation method, ensuring clarity and transparency for decision-makers.
+
+    This project demonstrates advanced skills in **data modeling, DAX optimization, and interactive storytelling**, applied to higher education analytics and decision support systems.
+
 - title: Traffic Sign Recognition with Deep Learning
   description: >
     Deep learning project for autonomous driving systems. Built a CNN-based model trained on the GTSRB dataset, achieving 99.87% accuracy using the Swish activation function.
