@@ -1,10 +1,10 @@
 <section class="two-col">
   <aside class="left profile">
-    <h1 class="profile-name">Nadia Medjdoub</h1>
+    <h1 class="profile-name">Nadia Mejou</h1>
     <img class="profile-photo" src="{{ '/assets/img/profile/profile_pic.jpg' | relative_url }}" alt="Mon portrait" />
     <p class="profile-city">Paris, France</p>
     <p class="profile-phone">(+33)699201222</p>
-    <p class="profile-mail">nadia.mejou@gmail.com</p>
+    <p class="profile-mail">nmejou@protonmail.com</p>
     <p class="profile-links">
 <a href="#" target="_blank" rel="noopener">Resume</a> |
 <a href="https://www.linkedin.com/in/nadia-medjdoub/" target="_blank" rel="noopener">LinkedIn</a> |
@@ -12,7 +12,7 @@
 <a href="#" target="_blank" rel="noopener">Tableau</a>
     </p>
     <p class="profile-bio">
-      I am a Data & Insights Manager with deep expertise in academic information systems and a strong focus on the higher education sector. My background blends data engineering, analytics, and applied data science to drive impactful, data-informed strategies for universities and educational institutions.
+      I am a Data & Analytics Manager focused on data governance, performance management, and decision support. I help organizations structure, analyze, and leverage their data by building reliable indicators, dashboards, and data-driven processes..
     </p>
   </aside>
 
