@@ -7,7 +7,7 @@
     <p class="profile-mail">nmejou@protonmail.com</p>
     <p class="profile-links">
 <a href="#" target="_blank" rel="noopener">Resume</a> |
-<a href="https://www.linkedin.com/in/nadia-medjdoub/" target="_blank" rel="noopener">LinkedIn</a> |
+<a href="https://www.linkedin.com/in/nadia-mejou/" target="_blank" rel="noopener">LinkedIn</a> |
 <a href="https://github.com/namejou/" target="_blank" rel="noopener">GitHub</a> |
 <a href="#" target="_blank" rel="noopener">Tableau</a>
     </p>
