@@ -12,7 +12,7 @@
 <a href="#" target="_blank" rel="noopener">Tableau</a>
     </p>
     <p class="profile-bio">
-      I am a Data & Analytics Manager focused on data governance, performance management, and decision support. I help organizations structure, analyze, and leverage their data by building reliable indicators, dashboards, and data-driven processes..
+      I am a Data & Analytics Manager focused on data governance, data quality, and business intelligence. I help organizations structure and leverage their data by designing reliable indicators, improving data processes, and building analytics solutions that support informed decisions.
     </p>
   </aside>
 
