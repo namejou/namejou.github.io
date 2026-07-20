@@ -3,7 +3,6 @@
     <h1 class="profile-name">Nadia Mejou</h1>
     <img class="profile-photo" src="{{ '/assets/img/profile/profile_pic.jpg' | relative_url }}" alt="Mon portrait" />
     <p class="profile-city">Paris, France</p>
-    <p class="profile-phone">(+33)699201222</p>
     <p class="profile-mail">nmejou@protonmail.com</p>
     <p class="profile-links">
 <a href="#" target="_blank" rel="noopener">Resume</a> |
